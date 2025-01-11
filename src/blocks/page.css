@@ -1,0 +1,36 @@
+.page {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(120, 9, 121, 1) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-width: 1280px;
+  max-width: 3000px;
+  min-height: 100vh;
+  font-family: "Inter", "Arial", "sans-serif";
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 10px;
+  /*grid-auto-rows: minmax(50px, 200px);*/
+  grid-template-areas:
+    "b a a a "
+    "b c c c"
+    "b c c c"
+    "b c c c"
+    "b d d d";
+}
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+  .page {
+    min-width: 800px;
+    max-width: 1280px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 799px) {
+  .page {
+    min-width: 320px;
+    max-width: 799px;
+  }
+}

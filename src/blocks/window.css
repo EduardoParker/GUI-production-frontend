@@ -1,0 +1,18 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  grid-area: c;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin-left: 20%;
+}
+.window__text {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
