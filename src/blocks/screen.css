@@ -1,0 +1,25 @@
+.screen {
+  /*max-width: 358px;*/
+  background-color: none;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  grid-area: c;
+}
+.screen__text {
+  margin: 0;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.screen__container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+.report {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 100%;
+  grid-area: c;
+  justify-content: center;
+  align-items: center;
+}
+
+.report__title {
+  margin-bottom: 80px;
+  color: #eee;
+}
+
+.report__table {
+  width: 100%;
+  border: 1px solid #000;
+  width: 90%;
+}
+.report__head-title,
+.report__data-table {
+  width: 25%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 5px;
+  background: #eee;
+}

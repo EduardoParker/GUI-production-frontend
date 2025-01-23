@@ -1,6 +1,9 @@
 .form {
   max-width: 600px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .form__input {
   width: 80%;
@@ -9,6 +12,7 @@
 }
 .form__label {
   margin-bottom: 10px;
+  align-self: flex-start;
 }
 .form__item {
   width: 100%;
@@ -34,4 +38,10 @@
     rgba(148, 5, 133, 0.7175245098039216) 100%
   );
   margin-top: 20px;
+  align-self: center;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  opacity: 60%;
 }

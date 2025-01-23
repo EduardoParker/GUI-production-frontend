@@ -39,11 +39,7 @@ export default function Nav({
         </li>
         <div className="nav__text-line"></div>
         <li>
-          <p
-            className="nav__text"
-            onClick={handleDeveloperClick}
-            description="Desarrollador"
-          >
+          <p className="nav__text" onClick={handleDeveloperClick}>
             Reporte por desarrollador
           </p>
         </li>
