@@ -1,4 +1,5 @@
-const BASE_URL = "//localhost:3000";
+//const BASE_URL = "//localhost:3001";
+const BASE_URL = "https://api.master-in-heaven.mooo.com";
 
 export const insertData = (data) => {
   return fetch(`${BASE_URL}/insertar-datos`, {

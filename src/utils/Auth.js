@@ -1,6 +1,6 @@
 //export const BASE_URL = "https://se-register-api.en.tripleten-services.com/v1";
-export const BASE_URL = "//localhost:3000";
-//export const BASE_URL = "https://api.master-in-heaven.mooo.com";
+//export const BASE_URL = "//localhost:3001";
+export const BASE_URL = "https://api.master-in-heaven.mooo.com";
 
 export const register = (email, contraseña) => {
   return fetch(`${BASE_URL}/registro`, {
